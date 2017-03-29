@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+rsync -avz -e ssh --progress --delete /home/admin123/backup-mysql/*  root@10.10.30.190:/root/backup/
